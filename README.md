@@ -1,11 +1,11 @@
 <div align="center">
 
-  <!-- Header Banner (Local SVG - 100% không bao giờ bị lỗi ảnh) -->
+  <!-- Header Banner (Local SVG - Đảm bảo hiển thị 100%) -->
   <img src="./assets/banner.svg" width="100%" alt="Trần Cao Trọng Banner" />
 
   <br/><br/>
 
-  <!-- Typing SVG Effect -->
+  <!-- Typing Animation -->
   <a href="https://github.com/trancaotrong456">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=620&lines=Xin+chao!+Minh+la+Tran+Cao+Trong+%F0%9F%91%8B;Full+Stack+Developer+(PHP,+Laravel,+C%23,+.NET);Xay+dung+ung+dung+Web+%26+Desktop+Software;Chao+mung+ban+den+voi+GitHub+cua+minh!+%F0%9F%9A%80" alt="Typing Animation" />
   </a>
@@ -46,14 +46,24 @@
 ### 📊 Thống kê GitHub (GitHub Stats)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=trancaotrong456&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8&icon_color=818cf8" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trancaotrong456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8" height="165" alt="Top Languages" />
+  <!-- GitHub Stats Card (Dùng mirror hoạt động ổn định 100%) -->
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=trancaotrong456&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8&icon_color=818cf8" height="165" alt="GitHub Stats" />
+  <!-- Top Languages Card -->
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=trancaotrong456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8" height="165" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=trancaotrong456&theme=tokyonight&hide_border=true&background=0d1117&ring=2dd4bf&fire=2dd4bf&currStreakNum=2dd4bf" alt="Streak Stats" />
+  <!-- Streak Stats Card -->
+  <img src="https://streak-stats.demolab.com/?user=trancaotrong456&theme=tokyonight&hide_border=true&background=0d1117&ring=2dd4bf&fire=2dd4bf&currStreakNum=2dd4bf" alt="Streak Stats" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- Contribution Activity Heatmap -->
+  <img src="https://ghchart.rshah.org/2dd4bf/trancaotrong456" width="100%" alt="Biểu đồ đóng góp GitHub" />
 </div>
 
 ---
