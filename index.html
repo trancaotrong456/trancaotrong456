@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trần Cao Trọng — Full Stack Developer</title>
+  <meta name="description" content="GitHub Profile của Trần Cao Trọng — Full Stack Developer chuyên về PHP, Laravel, C# và .NET" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-canvas">
+    <canvas id="matrix-canvas"></canvas>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+  </div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" class="github-icon"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        <span class="nav-brand">trancaotrong456</span>
+      </div>
+      <div class="nav-links">
+        <a href="#about" class="nav-link">Giới thiệu</a>
+        <a href="#repos" class="nav-link">Repositories</a>
+        <a href="#skills" class="nav-link">Kỹ năng</a>
+        <a href="#contact" class="nav-link">Liên hệ</a>
+      </div>
+      <div class="nav-actions">
+        <button class="btn-hire" id="hire-btn">💼 Hire Me</button>
+      </div>
+    </div>
+  </nav>
+  <section class="hero" id="about">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="avatar-wrap">
+          <div class="avatar-ring"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-img-wrap">
+            <img src="https://avatars.githubusercontent.com/trancaotrong456" alt="Tran Cao Trong" class="avatar-img" onerror="this.src='https://ui-avatars.com/api/?name=TCT&background=2dd4bf&color=0f172a&size=200&bold=true'" />
+          </div>
+          <div class="avatar-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for work</span>
+          </div>
+        </div>
+        <div class="profile-card">
+          <h1 class="profile-name">Trần Cao Trọng</h1>
+          <p class="profile-username">@trancaotrong456</p>
+          <div class="badge-row">
+            <span class="badge badge-dev">Full Stack Dev</span>
+            <span class="badge badge-vn">🇻🇳 Vietnam</span>
+            <span class="badge badge-open">Open Source</span>
+          </div>
+          <div class="profile-meta">
+            <div class="meta-item">👨‍💻 Sinh viên IT</div>
+            <div class="meta-item">📍 Hồ Chí Minh, Việt Nam</div>
+            <div class="meta-item">💻 Web Developer</div>
+          </div>
+          <div class="profile-actions">
+            <a href="https://github.com/trancaotrong456" target="_blank" class="btn-primary" id="view-github-btn">🔗 Xem GitHub</a>
+            <button class="btn-secondary" id="copy-email-btn" onclick="copyEmail()">✉️ Email</button>
+          </div>
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-num" data-target="8">0</span>
+              <span class="stat-label">Repos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="1">0</span>
+              <span class="stat-label">Stars</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="terminal-card" id="terminal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="terminal-title">trancaotrong456 ~ profile.sh</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line" style="--delay:0.2s"><span class="t-prompt">❯</span><span class="t-cmd"> whoami</span></div>
+            <div class="terminal-line output" style="--delay:0.6s"><span class="t-out-green">Trần Cao Trọng</span> <span class="t-comment">// Full Stack Developer</span></div>
+            <div class="terminal-line" style="--delay:1.0s"><span class="t-prompt">❯</span><span class="t-cmd"> cat skills.json</span></div>
+            <div class="terminal-line output" style="--delay:1.3s"><span class="t-bracket">{</span></div>
+            <div class="terminal-line output" style="--delay:1.5s"><span class="t-key">&nbsp;&nbsp;"backend"</span><span class="t-colon">:</span> <span class="t-str">["PHP", "Laravel", "C#", ".NET"]</span>,</div>
+            <div class="terminal-line output" style="--delay:1.7s"><span class="t-key">&nbsp;&nbsp;"frontend"</span><span class="t-colon">:</span> <span class="t-str">["HTML", "CSS", "JavaScript"]</span>,</div>
+            <div class="terminal-line output" style="--delay:1.9s"><span class="t-key">&nbsp;&nbsp;"database"</span><span class="t-colon">:</span> <span class="t-str">["MySQL", "SQLite", "MSSQL"]</span>,</div>
+            <div class="terminal-line output" style="--delay:2.1s"><span class="t-key">&nbsp;&nbsp;"learning"</span><span class="t-colon">:</span> <span class="t-str">["Next.js", "Docker", "DevOps"]</span></div>
+            <div class="terminal-line output" style="--delay:2.3s"><span class="t-bracket">}</span></div>
+            <div class="terminal-line" style="--delay:2.7s"><span class="t-prompt">❯</span><span class="t-cmd"> git status</span></div>
+            <div class="terminal-line output" style="--delay:3.0s"><span class="t-out-green">✓</span> On branch main — Ready to build! 🚀</div>
+            <div class="terminal-line" style="--delay:3.4s"><span class="t-prompt">❯</span><span class="t-cursor">█</span></div>
+          </div>
+        </div>
+        <div class="quick-cards">
+          <div class="quick-card" id="qc-1"><div class="qc-icon">🔭</div><div class="qc-content"><div class="qc-label">Đang làm</div><div class="qc-value">Web Projects</div></div></div>
+          <div class="quick-card" id="qc-2"><div class="qc-icon">🌱</div><div class="qc-content"><div class="qc-label">Đang học</div><div class="qc-value">Laravel & .NET</div></div></div>
+          <div class="quick-card" id="qc-3"><div class="qc-icon">💬</div><div class="qc-content"><div class="qc-label">Hỏi tôi về</div><div class="qc-value">PHP, C#, Web Dev</div></div></div>
+          <div class="quick-card" id="qc-4"><div class="qc-icon">⚡</div><div class="qc-content"><div class="qc-label">Fun fact</div><div class="qc-value">Code đêm đến 3h sáng</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section skills-section" id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-badge">⚡ Tech Stack</div>
+        <h2 class="section-title">Kỹ năng & Công nghệ</h2>
+        <p class="section-sub">Những công nghệ tôi đang sử dụng</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <div class="skill-cat-header"><span class="skill-cat-icon">🎨</span><span>Frontend</span></div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-html">HTML5</span>
+            <span class="skill-tag tag-css">CSS3</span>
+            <span class="skill-tag tag-js">JavaScript</span>
+            <span class="skill-tag tag-blade">Blade</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="skill-cat-header"><span class="skill-cat-icon">⚙️</span><span>Backend</span></div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-php">PHP</span>
+            <span class="skill-tag tag-laravel">Laravel</span>
+            <span class="skill-tag tag-csharp">C#</span>
+            <span class="skill-tag tag-dotnet">.NET 9</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="skill-cat-header"><span class="skill-cat-icon">🗄️</span><span>Database</span></div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-mysql">MySQL</span>
+            <span class="skill-tag tag-sqlite">SQLite</span>
+            <span class="skill-tag tag-mssql">MSSQL</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <div class="skill-cat-header"><span class="skill-cat-icon">🛠️</span><span>Tools</span></div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-git">Git</span>
+            <span class="skill-tag tag-github">GitHub</span>
+            <span class="skill-tag tag-vscode">VS Code</span>
+            <span class="skill-tag tag-vs">Visual Studio</span>
+          </div>
+        </div>
+      </div>
+      <div class="progress-section">
+        <div class="progress-item"><div class="progress-label"><span>PHP / Laravel</span><span class="progress-pct">85%</span></div><div class="progress-bar-wrap"><div class="progress-bar" data-width="85" style="--color:#8892bf"></div></div></div>
+        <div class="progress-item"><div class="progress-label"><span>C# / .NET</span><span class="progress-pct">78%</span></div><div class="progress-bar-wrap"><div class="progress-bar" data-width="78" style="--color:#68217a"></div></div></div>
+        <div class="progress-item"><div class="progress-label"><span>HTML / CSS / JS</span><span class="progress-pct">90%</span></div><div class="progress-bar-wrap"><div class="progress-bar" data-width="90" style="--color:#f7df1e"></div></div></div>
+        <div class="progress-item"><div class="progress-label"><span>MySQL / SQLite</span><span class="progress-pct">75%</span></div><div class="progress-bar-wrap"><div class="progress-bar" data-width="75" style="--color:#00758f"></div></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section repos-section" id="repos">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-badge">📁 Repositories</div>
+        <h2 class="section-title">Dự án nổi bật</h2>
+        <p class="section-sub">Những project tôi đã và đang xây dựng</p>
+      </div>
+      <div class="repos-grid">
+        <div class="repo-card featured" id="repo-thpshop">
+          <div class="repo-card-header"><div class="repo-icon">🛒</div><div class="repo-meta"><h3 class="repo-name">TTPSHOP Web Management</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">Web Management Project for TTPSHOP Clothing Store. Hệ thống quản lý cửa hàng thời trang.</p>
+          <div class="repo-tags"><span class="lang-tag php">● PHP</span><span class="tech-tag">Laravel</span><span class="tech-tag">MySQL</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 0</span><span>🍴 0</span></div><a href="https://github.com/trancaotrong456" target="_blank" class="repo-link" id="link-thpshop">View →</a></div>
+        </div>
+        <div class="repo-card featured" id="repo-finance">
+          <div class="repo-card-header"><div class="repo-icon">💰</div><div class="repo-meta"><h3 class="repo-name">Personal Finance Tracker</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">Quản lý chi tiêu cá nhân bằng C#, .NET 9, WPF, Entity Framework Core, SQLite, MVVM, LiveCharts.</p>
+          <div class="repo-tags"><span class="lang-tag csharp">● C#</span><span class="tech-tag">.NET 9</span><span class="tech-tag">WPF</span><span class="tech-tag">MVVM</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 1</span><span>🍴 0</span></div><a href="https://github.com/trancaotrong456/Personal-Finance-Tracker-App" target="_blank" class="repo-link" id="link-finance">View →</a></div>
+        </div>
+        <div class="repo-card" id="repo-be1">
+          <div class="repo-card-header"><div class="repo-icon">🏪</div><div class="repo-meta"><h3 class="repo-name">BE1-THPSHOP</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">THPSHOP — The E-commerce Web bằng PHP thuần.</p>
+          <div class="repo-tags"><span class="lang-tag php">● PHP</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 0</span></div><a href="https://github.com/trancaotrong456/BE1-THPSHOP" target="_blank" class="repo-link" id="link-be1">View →</a></div>
+        </div>
+        <div class="repo-card" id="repo-lapweb">
+          <div class="repo-card-header"><div class="repo-icon">📚</div><div class="repo-meta"><h3 class="repo-name">laptrinhweb</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">LAB 1 — Thực hành lập trình web cơ bản với HTML, CSS và JavaScript.</p>
+          <div class="repo-tags"><span class="lang-tag html">● HTML</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 0</span></div><a href="https://github.com/trancaotrong456/laptrinhweb" target="_blank" class="repo-link" id="link-lapweb">View →</a></div>
+        </div>
+        <div class="repo-card" id="repo-laplaravel">
+          <div class="repo-card-header"><div class="repo-icon">🔧</div><div class="repo-meta"><h3 class="repo-name">laptrinhweb_laravel</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">Học Laravel — Blade, Eloquent ORM và RESTful routes.</p>
+          <div class="repo-tags"><span class="lang-tag php">● PHP</span><span class="tech-tag">Laravel</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 0</span></div><a href="https://github.com/trancaotrong456/laptrinhweb_laravel" target="_blank" class="repo-link" id="link-laplaravel">View →</a></div>
+        </div>
+        <div class="repo-card" id="repo-training">
+          <div class="repo-card-header"><div class="repo-icon">🏋️</div><div class="repo-meta"><h3 class="repo-name">training-php</h3><span class="repo-visibility public">Public</span></div></div>
+          <p class="repo-desc">LAB 1 — Training PHP: OOP và các design pattern cơ bản.</p>
+          <div class="repo-tags"><span class="lang-tag php">● PHP</span></div>
+          <div class="repo-footer"><div class="repo-stats"><span>⭐ 0</span></div><a href="https://github.com/trancaotrong456/training-php" target="_blank" class="repo-link" id="link-training">View →</a></div>
+        </div>
+      </div>
+      <div class="view-all-wrap"><a href="https://github.com/trancaotrong456?tab=repositories" target="_blank" class="btn-view-all" id="btn-view-all">Xem tất cả repositories →</a></div>
+    </div>
+  </section>
+  <section class="section contact-section" id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-badge">📬 Contact</div>
+        <h2 class="section-title">Kết nối với tôi</h2>
+        <p class="section-sub">Hãy cùng nhau xây dựng điều gì đó tuyệt vời</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://github.com/trancaotrong456" target="_blank" class="contact-card" id="contact-github">
+          <div class="cc-icon github-color">GitHub</div>
+          <div class="cc-info"><div class="cc-platform">GitHub</div><div class="cc-handle">@trancaotrong456</div></div>
+          <div class="cc-arrow">→</div>
+        </a>
+        <div class="contact-card" id="contact-email" onclick="copyEmail()" style="cursor:pointer">
+          <div class="cc-icon email-color">✉️</div>
+          <div class="cc-info"><div class="cc-platform">Email</div><div class="cc-handle">Click để copy</div></div>
+          <div class="cc-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="footer-name">Trần Cao Trọng</span> <span class="footer-sep">·</span> <span class="footer-role">Full Stack Developer</span></div>
+      <div class="footer-made">Made with <span class="heart">❤️</span> in Vietnam 🇻🇳</div>
+    </div>
+  </footer>
+  <div class="toast" id="toast">✓ Đã copy!</div>
+  <script src="script.js"></script>
+</body>
+</html>
