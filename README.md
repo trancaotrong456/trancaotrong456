@@ -1,16 +1,18 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,15,30,45&height=220&section=header&text=Tr%E1%BA%A7n%20Cao%20Tr%E1%BB%8Dng&fontSize=42&fontAlignY=38&desc=Full%20Stack%20Web%20%26%20Software%20Developer%20%F0%9F%9A%80&descAlignY=62&descSize=18&fontColor=2dd4bf" width="100%" alt="Header Banner" />
+  <!-- Header Banner (Local SVG - 100% không bao giờ bị lỗi ảnh) -->
+  <img src="./assets/banner.svg" width="100%" alt="Trần Cao Trọng Banner" />
+
+  <br/><br/>
 
   <!-- Typing SVG Effect -->
   <a href="https://github.com/trancaotrong456">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=Xin+ch%C3%A0o!+M%C3%ACnh+l%C3%A0+Tr%E1%BA%A7n+Cao+Tr%E1%BB%8Dng+%F0%9F%91%8B;Full+Stack+Developer+(PHP%2C+Laravel%2C+C%23%2C+.NET);X%C3%A2y+d%E1%BB%B1ng+%E1%BB%A9ng+d%E1%BB%A5ng+Web+%26+Desktop+%F0%9F%92%BB;Lu%C3%B4n+s%E1%BA%B5n+s%C3%A0ng+học+h%E1%BB%8Fi+v%C3%A0+ph%C3%A1t+tri%E1%BB%83n+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=620&lines=Xin+chao!+Minh+la+Tran+Cao+Trong+%F0%9F%91%8B;Full+Stack+Developer+(PHP,+Laravel,+C%23,+.NET);Xay+dung+ung+dung+Web+%26+Desktop+Software;Chao+mung+ban+den+voi+GitHub+cua+minh!+%F0%9F%9A%80" alt="Typing Animation" />
   </a>
 
   <p align="center">
-    <a href="https://trancaotrong456.github.io/trancaotrong456/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Xem%20Website%20Portfolio-2dd4bf?style=for-the-badge&logoColor=0f172a&labelColor=0f172a" alt="Portfolio"/></a>
-    <a href="mailto:trancaotrong456@gmail.com"><img src="https://img.shields.io/badge/%E2%9C%89%EF%B8%8F%20G%E1%BB%ADi%20Email-818cf8?style=for-the-badge&logoColor=white&labelColor=0f172a" alt="Email"/></a>
+    <a href="mailto:trancaotrong456@gmail.com"><img src="https://img.shields.io/badge/%E2%9C%89%EF%B8%8F%20G%E1%BB%ADi%20Email-trancaotrong456%40gmail.com-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Email"/></a>
+    <a href="https://github.com/trancaotrong456"><img src="https://img.shields.io/badge/GitHub-trancaotrong456-818cf8?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" alt="GitHub"/></a>
   </p>
 
 </div>
@@ -47,6 +49,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=trancaotrong456&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8&icon_color=818cf8" height="165" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=trancaotrong456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2dd4bf&text_color=94a3b8" height="165" alt="Top Languages" />
 </div>
+
+<br/>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=trancaotrong456&theme=tokyonight&hide_border=true&background=0d1117&ring=2dd4bf&fire=2dd4bf&currStreakNum=2dd4bf" alt="Streak Stats" />
@@ -87,6 +91,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,15,30,45&height=100&section=footer" width="100%" alt="Footer Banner" />
   <p>⭐ <i>Cảm ơn bạn đã ghé thăm trang GitHub cá nhân của tôi!</i> ⭐</p>
 </div>
